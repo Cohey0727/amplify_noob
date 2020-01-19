@@ -2,13 +2,16 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
+const API_KEY = process.env.REACT_APP_ENV_TEST;
+console.debug({ API_KEY });
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js changed!!</code> and save to reload.
+          Edit <code>src/App.js changed!! </code> and save to reload.
         </p>
         <a
           className="App-link"
