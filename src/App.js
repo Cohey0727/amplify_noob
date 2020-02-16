@@ -10,6 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js changed!!</code> and save to reload.
         </p>
+        <p>This is Master Branch</p>
         <a
           className="App-link"
           href="https://reactjs.org"
